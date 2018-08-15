@@ -1,0 +1,29 @@
+{
+  "name": "react_setup_example",
+  "version": "1.0.0",
+  "description": "A starter React project.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --open",
+    "compile": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "6.26.3",
+    "babel-loader": "7.1.4",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-react": "6.24.1",
+    "html-webpack-plugin": "3.2.0",
+    "webpack": "4.10.2",
+    "webpack-cli": "3.0.2",
+    "webpack-dev-server": "3.1.4"
+  },
+  "dependencies": {
+    "express": "4.16.3",
+    "react": "16.4.0",
+    "react-dom": "16.4.0",
+    "react-router-dom": "4.3.1"
+  }
+}
